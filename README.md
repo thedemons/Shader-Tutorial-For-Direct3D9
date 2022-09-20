@@ -1,7 +1,7 @@
 # HLSL Shaders Tutorial for Direct3D 9
 
 ## Introduction
-After weeks of desperate searching on the internet for proper documentation on how to work with shaders in Direct3D 9, I've finally grasped the basic concept of it and decided to make a short beginner-friendly tutorial.
+After weeks of desperate searching on the internet for proper documentation on how to work with shaders in Direct3D 9, I finally grasped the basic concept of it and decided to make a short beginner-friendly tutorial.
 
 ## The problem
 DX9 is old, to say the least, but it is also the easiest starting point if you want to learn DX11 or DX12. <br>

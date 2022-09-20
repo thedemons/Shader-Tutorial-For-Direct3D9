@@ -18,7 +18,7 @@
     
     D3DXMatrixTranspose(&WorldViewProjectionTransposed, &WorldViewProjection);
     ```
-- As we already specified that the `WorldViewProj` constant buffer in the Vertex Shader is at the `register(c0)` in [the previous chapter](/compiling-your-first-shader.md):
+- As we already specified that the `WorldViewProj` constant buffer in the Vertex Shader is at the `register(c0)` in [the previous chapter](/compiling-your-first-shader.md#compiling-a-vertex-shader):
     ```cpp
     cbuffer cbPerFrame : register(c0)
     {
@@ -35,7 +35,7 @@
     ```cpp
     float psConstant[] = {0.f, 1.f, 0.f, 1.f};
     ```
-- As we already specified that the `color` constant buffer in the Pixel Shader is at the `register(c0)` in [the previous chapter](/compiling-your-first-shader.md):
+- As we already specified that the `color` constant buffer in the Pixel Shader is at the `register(c0)` in [the previous chapter](/compiling-your-first-shader.md#compiling-a-pixel-shader):
     ```cpp
     cbuffer cbPerFrame : register(c0)
     {
