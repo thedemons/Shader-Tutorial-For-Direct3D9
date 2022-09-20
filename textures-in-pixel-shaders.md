@@ -3,7 +3,7 @@
 - In a Pixel Shader, you need these coordinates in order to look up the texture to see what is the color for that specific coordinate.
 
 ## Using textures in pixel shaders
-**Important**: The vertex shader must output the uv coordinate in order for this to work, see [the previous chapter](/the-input-and-output-of-shaders.md).
+**Important**: The vertex shader must output the uv coordinate in order for this to work, see [the previous chapter](/the-input-and-output-of-shaders.md#the-output-of-vertex-shaders).
 - First, define some global variables:
     ```cpp
     sampler2D gTexSampler : register(s0) =
